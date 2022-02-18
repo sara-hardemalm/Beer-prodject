@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:#2ba4c9;
+} 
+                                           
+
+/* menu*/                                         
+nav {
+    margin: 0px;
+    padding: 5px;
+    background-color: #4c5ebb; /*menu color*/
+    border-bottom: 3.5px solid rgb(24, 32, 109); /*color on the line under the menu*/
+    display: block;
+    font-size: 20px; /*size on menu text*/
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+
+nav ul{
+    text-align: center; /*text in center*/
+    list-style-type: none;
+    
+}
+nav ul li {
+    display: inline-block ;
+    padding:5px 15px;
+    
+}
+
+nav a {
+    text-decoration:none; /*no link underlines*/
+    color:white; /*menu text color*/
+    
+}
+nav li a:hover {
+    background-color: rgb(8, 146, 189); /*mouse pointer on top of text color*/
+}
+
+/*end of menu css*/                           
+
+
+form {
+    margin: 5% auto ;
+    padding: 20px  30px 20px 20px;
+    border-radius:50px;
+    width: 600px;
+    display:block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 6.5px;
+    line-height: 25px;
+    justify-self: center;
+    background-color: rgb(243, 161, 8);
+    box-shadow: 10px 10px 7px 0px #135f7b;
+}
+
+H2{
+    text-align: center;
+}
+
+
+/*search bar*/                                
+.searchtext{
+    padding:2px 10px 3px 11px; /*so the text are not overlapping with the border-radius ( also to make it easyer to see/read the text)*/
+    height: 25px;
+    border-radius: 15px;
+    border-color: rgb(24, 32, 109);
+    box-shadow: -5px -4px 5px 0px rgb(24, 32, 109 , 40%) inset;
+}
+
+/*beer button css*/                           
+.searchbutton {
+    margin: 6px 0;
+    padding: 0 13px;
+    height: 35px;
+    text-align: center;
+    color: #eee3dd;
+    background-color: #004483 ;
+    border: 5px ;
+    border-color:#04e2ff ;
+    border-radius: 15px;
+}
+
+.searchbutton:active {
+    transform:scale(0.75);
+}
+.searchbutton:focus {
+    outline:none;
+}
+/*end of all css for Search beer button*/                
+
+
+/* container for the main element (for the UL/li element)*/
+#BeerResult {
+    margin: 2% auto ;
+    padding: 20px  30px 20px 20px;
+    border-radius:50px;
+    width: 600px;
+    display:block;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 6.5px;
+    line-height: 25px;
+    justify-self: center;
+    background-color: rgba(243, 161, 8, 0);
+    box-shadow: 10px 10px 7px 0px #135f7b00;
+}
+
